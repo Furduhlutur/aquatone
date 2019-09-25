@@ -126,6 +126,8 @@ func (s *Session) AddPage(url string) (*Page, error) {
 }
 
 func (s *Session) GetPage(url string) *Page {
+	s.Lock()
+	defer s.Unlock()
 	if page, ok := s.Pages[url]; ok {
 		return page
 	}
@@ -133,6 +135,8 @@ func (s *Session) GetPage(url string) *Page {
 }
 
 func (s *Session) GetPageByUUID(id string) *Page {
+	s.Lock()
+	defer s.Unlock()
 	for _, page := range s.Pages {
 		if page.UUID == id {
 			return page
