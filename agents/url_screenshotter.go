@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/michenriksen/aquatone/core"
+	"github.com/Furduhlutur/aquatone/core"
 )
 
 type URLScreenshotter struct {
