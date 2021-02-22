@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/Furduhlutur/aquatone/core"
+	"github.com/nielsing/aquatone/core"
 )
 
 type URLHostnameResolver struct {

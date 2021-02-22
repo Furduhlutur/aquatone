@@ -4,7 +4,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/Furduhlutur/aquatone/core"
+	"github.com/nielsing/aquatone/core"
 
 	"github.com/lair-framework/go-nmap"
 )

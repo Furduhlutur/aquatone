@@ -4,5 +4,5 @@ const (
 	Name    = "aquatone"
 	Version = "1.7.0"
 	Author  = "Michael Henriksen"
-	Website = "https://github.com/Furduhlutur/aquatone"
+	Website = "https://github.com/nielsing/aquatone"
 )
